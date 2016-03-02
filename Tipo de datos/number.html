@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Number</title>
+    <script>
+        var num = 3;
+        var floatnumero1= 1.1;
+        var floatNumero2 = .1;
+
+        console.log( floatnumero1);
+
+        var num1 = 3e4; //3x 10 elevado a la 4
+        console.log(num1);
+
+        //devolvera true si no se puede convertir en numero y false si es que se puede convertir a un numero
+        //isNaN nos ayuda a determinar si es un numero o no, pero hara el intento de convertir a dicho argumento
+        console.log("----------NaN y isNaN()---------");
+        console.log(NaN/10);
+        console.log(isNaN(NaN));
+        console.log(isNaN(10));
+        console.log(isNaN("10"));
+        console.log(isNaN("azul"));
+        console.log(isNaN(true));
+
+        //3 CONVERSIONES NO NUMERICOS A NUMERICOS
+        // Number() puede ser utilizada en cualquier tipo de datos
+        // parseInt() se usa para conversiond de cadenas en numeros
+        // parseFloat() se usa para conversiond de cadenas en numeros
+
+
+        // Number()
+
+        console.log("----------Number()---------");
+
+        console.log(Number(true));
+        console.log(Number(null));
+        console.log(Number(undefined));
+
+        console.log(Number("123"));
+        console.log(Number("011"));
+        console.log(Number("1.2"));
+        console.log(Number("0xf"));
+        console.log(Number(""));
+        console.log(Number("hola cho"));
+
+        //parseInt
+
+        console.log("----------parseInt---------");
+        console.log(parseInt("10"));
+        console.log(parseInt("011"));
+        console.log(parseInt("123Azul"));
+        console.log(parseInt("0xf"));
+        console.log(parseInt("2.5"));
+        console.log(parseInt("070"));
+        console.log(parseInt(""));
+
+        console.log("----------parseFloat---------");
+        console.log(parseFloat("123float"));
+        console.log(parseFloat("12.3Azul"));
+        console.log(parseFloat("22.5"));
+        console.log(parseFloat("22.3.34.36"));
+        console.log(parseFloat("098.4"));
+
+    </script>
+</head>
+<body>
+
+
+</body>
+</html>
