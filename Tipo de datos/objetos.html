@@ -30,7 +30,46 @@
         delete curso.alumnos;
         console.log(curso);
 
+        var people = {
+            nonbre:"Brayan",
+            apellido:"Pastor",
+            mensaje: function(dato){
+                console.log(dato);
+            }
+        }
 
+        console.log(people.mensaje("alumno de javascript"))
+
+
+
+
+
+        //function
+
+        //Funcion 1
+        function datosPersonas(nombre,apellido,edad){
+            console.log("mi nombre es"+ nombre + " " + apellido+ " mi edad es" + edad);
+        }
+
+        console.log(datosPersonas("brayan","pastor paredes",12));
+
+        //Funcion 2
+
+        var datosPersona = function(nombre, apellido,edad){
+            return nombre + " " + apellido + " "  + edad
+        }
+
+        var persona = datosPersona("julio","pastor",22);
+        console.log(persona);
+
+        //Funcion 3
+        function valores(a,b,c)
+        {
+            return a+b+c;
+
+        }
+        var suma = valores(2,3,5);
+        console.log(suma);
     </script>
 </head>
 <body>
