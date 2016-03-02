@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Objetos</title>
+    <script>
+        console.log("----------Objetos---------");
+        // los objetos tienen propiedades y metodos, los objetos son mutables por referencia
+        // por ejemplo obj A y B se igualan A=B se hace una referencia al obj A
+        var obj = new Object(); // esto representa al constructor
+        //Formas de crear un objeto
+        var obj2= {};
+        var curso={nombre:"javascript", modulos:12};
+
+        console.log(curso);
+        //Acceder a sus propiedades
+        console.log(curso.nombre)
+        //Editando nombre
+        curso.nombre = "html y css"
+        console.log(curso.nombre)
+        //mostramos de nuevo el objeto
+        console.log(curso);
+
+        //AGREGAR UNA NUEVA PROPIEDAD AL OBJETO
+
+        curso.alumnos = 50;
+        console.log(curso);
+
+        //Borrar una propiedad
+        delete curso.alumnos;
+        console.log(curso);
+
+
+    </script>
+</head>
+<body>
+
+
+</body>
+</html>
