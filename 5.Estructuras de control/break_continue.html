@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Break y continue</title>
+    <script>
+        // Sentencia break permite salir del bucle imediatamente obligando a la ejecucion de la siguiente secuencia
+        // continue permite saltar algunas repeticiones del bucle
+
+        console.log("=========BREAK===========");
+        var num =0;
+
+        for(var i = 1; i < 10 ; i++){
+            if ( i % 5 == 0){
+                break;
+            }
+            num++
+        }
+        console.log(num);
+
+        console.log("=========CONTINUE===========");
+
+        var numero =0;
+
+        for( var j = 1; j <10 ; j++){
+            if(j % 5 == 0){
+                continue; // interrumpe el buble
+            }
+            numero++
+        }
+        console.log(numero)
+
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

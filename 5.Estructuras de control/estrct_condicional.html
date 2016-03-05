@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ESTRUCTURAS CONDICIONALES</title>
+    <script>
+        console.log("======if else=======");
+        
+        var edad = 18;
+        
+        if (edad>= 18){
+            console.log("eres mayor de edad");
+        }
+        else {
+            console.log("eres un niño");
+        }
+
+        console.log("======Ejemplo 2=======");
+        var edad2 = 14;
+
+        if(edad2>=0 && edad2 <= 2){
+            console.log("Aun eres un bb");
+        }
+        else if (edad2 >= 3 && edad2 <= 11){
+            console.log("eres un niño");
+        }
+        else if(edad2 >= 12 && edad2 <= 17){
+            console.log("Exacto eres un adolecente");
+        }
+        else if (edad2 >= 18 && edad2 <= 30){
+            console.log("Asi es eres un joven");
+        }
+        else {
+            console.log("ya eres mayor");
+        }
+
+        console.log("=========Switch===========");
+
+        var comida = "tallarin con pollo";
+
+        switch (comida){
+            case "milanesa":
+                console.log("hoy comeras milanesa");
+                break;
+
+            case "arroz con pollo":
+                console.log("hoy dia comeras arroz con pollo");
+                break;
+
+            case "tallarin con pollo":
+                console.log("hoy dia comeras tu plato preferido");
+                break;
+            default:
+                "Tu plato no esta en el menu"
+        }
+
+
+        
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
