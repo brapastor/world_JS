@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba24fee1-c12a-4129-ae04-1f58bc357159" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.operadores/aditivos_multiplicativos.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.operadores/logicos_relacionales.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.operadores/unarios.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/5.Estructuras de control/break_continue.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/5.Estructuras de control/estrct_condicional.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/5.Estructuras de control/estruct_repetitivas.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6.Variables, ambito y memoria/contexto de ejecucion.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6.Variables, ambito y memoria/contex_ejecu_ambito.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6.Variables, ambito y memoria/var_primitivas_referencia.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled.iws" />
@@ -79,11 +76,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="break_continue.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="break_continue.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/5.Estructuras de control/break_continue.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66938776">
+            <state vertical-scroll-proportion="-4.151899">
               <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="var_primitivas_referencia.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/6.Variables, ambito y memoria/var_primitivas_referencia.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.8461537">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contex_ejecu_ambito.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/6.Variables, ambito y memoria/contex_ejecu_ambito.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4640884">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -118,6 +135,8 @@
         <option value="$PROJECT_DIR$/5.Estructuras de control/estrct_condicional.html" />
         <option value="$PROJECT_DIR$/5.Estructuras de control/estruct_repetitivas.html" />
         <option value="$PROJECT_DIR$/5.Estructuras de control/break_continue.html" />
+        <option value="$PROJECT_DIR$/6.Variables, ambito y memoria/var_primitivas_referencia.html" />
+        <option value="$PROJECT_DIR$/6.Variables, ambito y memoria/contex_ejecu_ambito.html" />
       </list>
     </option>
   </component>
@@ -175,6 +194,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="world_JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6.Variables, ambito y memoria" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -194,13 +227,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/6.Variables, ambito y memoria" />
       <recent name="$PROJECT_DIR$/Tipo de datos" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.break_continue.html">
-    <configuration default="false" name="unarios.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/4.operadores/unarios.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.var_primitivas_referencia.html">
     <configuration default="false" name="logicos_relacionales.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/4.operadores/logicos_relacionales.html">
       <method />
     </configuration>
@@ -211,6 +242,9 @@
       <method />
     </configuration>
     <configuration default="false" name="break_continue.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/5.Estructuras de control/break_continue.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="var_primitivas_referencia.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/6.Variables, ambito y memoria/var_primitivas_referencia.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -262,19 +296,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.unarios.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.logicos_relacionales.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.estrct_condicional.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.estruct_repetitivas.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.break_continue.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.logicos_relacionales.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.estrct_condicional.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.estruct_repetitivas.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.break_continue.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.var_primitivas_referencia.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.break_continue.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.estruct_repetitivas.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.estrct_condicional.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.logicos_relacionales.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.unarios.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.var_primitivas_referencia.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.break_continue.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.estruct_repetitivas.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.estrct_condicional.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.logicos_relacionales.html" />
       </list>
     </recent_temporary>
   </component>
@@ -293,9 +327,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19591261" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19591261" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -329,27 +363,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2.primeros pasos/use_strict.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.Tipo de datos/typeof.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.componentes/componentes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2.primeros pasos/sintaxis.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -690,8 +703,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/5.Estructuras de control/break_continue.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66938776">
+        <state vertical-scroll-proportion="-4.151899">
           <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.Variables, ambito y memoria/var_primitivas_referencia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.8461537">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.Variables, ambito y memoria/contexto de ejecucion.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.Variables, ambito y memoria/contex_ejecu_ambito.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4640884">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding />
         </state>
       </provider>

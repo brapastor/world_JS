@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Variables primitivas y por referencia</title>
+    <script>
+        //VARIABLES POR REFERENCIA
+        var persona = new Object();
+        persona.nombre = "nicolas";
+
+        console.log(persona.nombre);
+///====================================
+        var obj1 = new Object();
+
+        var obj2 = obj1;
+
+        obj1.name = "joao";
+        console.log(obj2.name);
+
+//        paso de prametros funcioones
+        function setName (obj){
+            obj.name = "nicolas";
+            obj = new Object();
+            obj.name = "greck";
+        }
+
+        var persona = new Object();
+        setName(persona);
+
+        console.log(persona.name);
+
+//      ==================================================================================================
+        // VARIABLES PRIMITIDAS
+
+        var nombre = "BRYAN";
+        nombre.edad= 27;
+        console.log(nombre.edad);
+
+        var num1 =5;
+        var num2 = num1;
+
+//        PASO DE ARGUMENTOS EN FUNCIONES por primitiva
+
+        function sumaDato(num){
+            num= num +10;
+            return num;
+        }
+
+        var count = 20;
+        var resultado = sumaDato(count);
+        
+        console.log(count);
+        console.log(resultado);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

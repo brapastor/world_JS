@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Variables de ejecucion y ambito</title>
+    <script>
+        var color = "blue";
+
+        function changeColor(){
+            var anotherColor = "red";
+
+            function swapColors(){
+                var tempColor = anotherColor;
+                anotherColor = color;
+                color = tempColor;
+            }
+            swapColors()
+        }
+        changeColor();
+//        function changeColor(){
+//            if (color ==="blue"){
+//                color = "red";
+//            }
+//            else {
+//                color = "yellow"
+//            }
+//        }
+//        changeColor();
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
