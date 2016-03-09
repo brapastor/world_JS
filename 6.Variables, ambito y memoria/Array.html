@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array</title>
+    <script>
+        var colores = new Array();
+
+        var color = new Array(10);
+
+        var color2 = new Array("rojo", "Azul","verde");
+
+
+        var persona = ["rojo", "azul","verde"];
+
+        var nombres = [];
+
+        console.log(persona[1]);
+        console.log(persona.length);
+        persona.length = 2
+        console.log(persona);
+
+        persona[color.length] = "Amarillo"; //establecer ultimo elemto a un array
+
+        console.log(persona.toString()); // convertir array a cadena
+        
+        
+        console.log("==========STACk=============");
+
+        color2.push("amarillo","pupura");
+        
+        console.log(color2);
+
+        color2.pop(); //elimina el ultimo elemento
+
+        console.log(color2);
+
+        console.log(color2.shift()); //primer elemento de un array
+        
+        console.log(color2.unshift("marron", "sapencio")); // agrega elementos al principio array
+        
+        console.log(color2);
+        
+        color2.reverse(); // revierte al array
+        
+        console.log(color2);
+
+        color2.sort(); // lo ordena alfabeticamente el array
+        
+        console.log(color2);
+
+        console.log(color2.slice(1,3)); // segun las posiciones del array
+
+        //supresion
+        color2.splice(0,2)
+        
+        console.log(color2);
+
+        //Insercion
+        
+        color2.splice(2,0,"plomo","marrocito");
+        
+        console.log(color2);
+
+        //Remplazar
+
+        console.log(color2.splice(2,1,"morado", "violeta"));
+        
+        console.log(color2);
+
+
+        
+        
+        
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba24fee1-c12a-4129-ae04-1f58bc357159" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6.Variables, ambito y memoria/contexto de ejecucion.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6.Variables, ambito y memoria/contex_ejecu_ambito.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6.Variables, ambito y memoria/var_primitivas_referencia.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6.Variables, ambito y memoria/Array.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6.Variables, ambito y memoria/trash.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled.iws" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="aditivos_multiplicativos.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/4.operadores/aditivos_multiplicativos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.7692308">
+            <state vertical-scroll-proportion="0.0">
               <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
               <folding />
             </state>
@@ -39,7 +38,7 @@
       <file leaf-file-name="unarios.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/4.operadores/unarios.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6923077">
+            <state vertical-scroll-proportion="0.0">
               <caret line="1" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="7" />
               <folding />
             </state>
@@ -49,7 +48,7 @@
       <file leaf-file-name="logicos_relacionales.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/4.operadores/logicos_relacionales.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.9615383">
+            <state vertical-scroll-proportion="0.0">
               <caret line="26" column="64" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="7" />
               <folding />
             </state>
@@ -59,7 +58,7 @@
       <file leaf-file-name="estrct_condicional.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/5.Estructuras de control/estrct_condicional.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.76923">
+            <state vertical-scroll-proportion="0.0">
               <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
               <folding />
             </state>
@@ -69,7 +68,7 @@
       <file leaf-file-name="estruct_repetitivas.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/5.Estructuras de control/estruct_repetitivas.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.73077">
+            <state vertical-scroll-proportion="0.0">
               <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
@@ -79,7 +78,7 @@
       <file leaf-file-name="break_continue.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/5.Estructuras de control/break_continue.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.151899">
+            <state vertical-scroll-proportion="0.0">
               <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
               <folding />
             </state>
@@ -89,18 +88,38 @@
       <file leaf-file-name="var_primitivas_referencia.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6.Variables, ambito y memoria/var_primitivas_referencia.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.8461537">
+            <state vertical-scroll-proportion="0.0">
               <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contex_ejecu_ambito.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contex_ejecu_ambito.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6.Variables, ambito y memoria/contex_ejecu_ambito.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4640884">
-              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            <state vertical-scroll-proportion="-8.307693">
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trash.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/6.Variables, ambito y memoria/trash.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.076923">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Array.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/6.Variables, ambito y memoria/Array.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5966851">
+              <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -137,6 +156,8 @@
         <option value="$PROJECT_DIR$/5.Estructuras de control/break_continue.html" />
         <option value="$PROJECT_DIR$/6.Variables, ambito y memoria/var_primitivas_referencia.html" />
         <option value="$PROJECT_DIR$/6.Variables, ambito y memoria/contex_ejecu_ambito.html" />
+        <option value="$PROJECT_DIR$/6.Variables, ambito y memoria/trash.html" />
+        <option value="$PROJECT_DIR$/6.Variables, ambito y memoria/Array.html" />
       </list>
     </option>
   </component>
@@ -176,6 +197,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -210,7 +232,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,10 +252,7 @@
       <recent name="$PROJECT_DIR$/Tipo de datos" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.var_primitivas_referencia.html">
-    <configuration default="false" name="logicos_relacionales.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/4.operadores/logicos_relacionales.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.Array.html">
     <configuration default="false" name="estrct_condicional.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/5.Estructuras de control/estrct_condicional.html">
       <method />
     </configuration>
@@ -245,6 +263,9 @@
       <method />
     </configuration>
     <configuration default="false" name="var_primitivas_referencia.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/6.Variables, ambito y memoria/var_primitivas_referencia.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="Array.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/6.Variables, ambito y memoria/Array.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -296,19 +317,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.logicos_relacionales.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.estrct_condicional.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.estruct_repetitivas.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.break_continue.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.var_primitivas_referencia.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.estrct_condicional.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.estruct_repetitivas.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.break_continue.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.var_primitivas_referencia.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Array.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.var_primitivas_referencia.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.break_continue.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.estruct_repetitivas.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.estrct_condicional.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.logicos_relacionales.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Array.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.var_primitivas_referencia.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.break_continue.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.estruct_repetitivas.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.estrct_condicional.html" />
       </list>
     </recent_temporary>
   </component>
@@ -342,6 +363,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22973925" sideWeight="0.5159664" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -363,20 +385,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2.primeros pasos/sintaxis.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.primeros pasos/identificadores.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2.primeros pasos/declaraciones.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -617,7 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26519337">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3314917">
           <caret line="10" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5966851">
           <caret line="18" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -641,7 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38489872">
           <caret line="56" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -649,7 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26519337">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -657,13 +660,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.53038675">
           <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/4.operadores/unarios.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6923077">
+        <state vertical-scroll-proportion="0.0">
           <caret line="1" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="7" />
           <folding />
         </state>
@@ -671,7 +673,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/4.operadores/aditivos_multiplicativos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7692308">
+        <state vertical-scroll-proportion="0.0">
           <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
           <folding />
         </state>
@@ -679,7 +681,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/4.operadores/logicos_relacionales.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9615383">
+        <state vertical-scroll-proportion="0.0">
           <caret line="26" column="64" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="7" />
           <folding />
         </state>
@@ -687,7 +689,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/5.Estructuras de control/estrct_condicional.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.76923">
+        <state vertical-scroll-proportion="0.0">
           <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
           <folding />
         </state>
@@ -695,7 +697,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/5.Estructuras de control/estruct_repetitivas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.73077">
+        <state vertical-scroll-proportion="0.0">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
@@ -703,7 +705,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/5.Estructuras de control/break_continue.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.151899">
+        <state vertical-scroll-proportion="0.0">
           <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
           <folding />
         </state>
@@ -711,7 +713,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/6.Variables, ambito y memoria/var_primitivas_referencia.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.8461537">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
           <folding />
         </state>
@@ -724,8 +726,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/6.Variables, ambito y memoria/contex_ejecu_ambito.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4640884">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        <state vertical-scroll-proportion="-8.307693">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.Variables, ambito y memoria/trash.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.076923">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.Variables, ambito y memoria/Array.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5966851">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
           <folding />
         </state>
       </provider>
