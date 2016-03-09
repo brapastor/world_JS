@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba24fee1-c12a-4129-ae04-1f58bc357159" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6.Variables, ambito y memoria/Array.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6.Variables, ambito y memoria/trash.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.Tipos de referencia/Date/date.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled.iws" />
@@ -30,16 +29,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="unarios.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4.operadores/unarios.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -115,11 +104,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Array.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/6.Variables, ambito y memoria/Array.html">
+      <file leaf-file-name="Array.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7.Tipos de referencia/Array.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5966851">
+            <state vertical-scroll-proportion="-12.461538">
               <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="date.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/7.Tipos de referencia/Date/date.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2320442">
+              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -158,6 +157,7 @@
         <option value="$PROJECT_DIR$/6.Variables, ambito y memoria/contex_ejecu_ambito.html" />
         <option value="$PROJECT_DIR$/6.Variables, ambito y memoria/trash.html" />
         <option value="$PROJECT_DIR$/6.Variables, ambito y memoria/Array.html" />
+        <option value="$PROJECT_DIR$/7.Tipos de referencia/date.html" />
       </list>
     </option>
   </component>
@@ -226,6 +226,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="7.Tipos de referencia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="world_JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7.Tipos de referencia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Date" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="world_JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="6.Variables, ambito y memoria" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -247,15 +279,16 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/7.Tipos de referencia/Date" />
+      <recent name="$PROJECT_DIR$/7.Tipos de referencia" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/6.Variables, ambito y memoria" />
       <recent name="$PROJECT_DIR$/Tipo de datos" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Array.html">
-    <configuration default="false" name="estrct_condicional.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/5.Estructuras de control/estrct_condicional.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.date.html">
     <configuration default="false" name="estruct_repetitivas.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/5.Estructuras de control/estruct_repetitivas.html">
       <method />
     </configuration>
@@ -265,7 +298,10 @@
     <configuration default="false" name="var_primitivas_referencia.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/6.Variables, ambito y memoria/var_primitivas_referencia.html">
       <method />
     </configuration>
-    <configuration default="false" name="Array.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/6.Variables, ambito y memoria/Array.html">
+    <configuration default="false" name="Array.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/7.Tipos de referencia/Array.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="date.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/7.Tipos de referencia/Date/date.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -317,19 +353,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.estrct_condicional.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.estruct_repetitivas.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.break_continue.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.var_primitivas_referencia.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Array.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.estruct_repetitivas.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.break_continue.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.var_primitivas_referencia.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Array.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.date.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Array.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.var_primitivas_referencia.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.break_continue.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.estruct_repetitivas.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.estrct_condicional.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.date.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Array.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.var_primitivas_referencia.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.break_continue.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.estruct_repetitivas.html" />
       </list>
     </recent_temporary>
   </component>
@@ -350,13 +386,13 @@
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19591261" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19591261" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23754789" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23754789" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39938557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -385,13 +421,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2.primeros pasos/declaraciones.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2.primeros pasos/variables.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -740,10 +769,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6.Variables, ambito y memoria/Array.html">
+    <entry file="file://$PROJECT_DIR$/7.Tipos de referencia/Array.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5966851">
+        <state vertical-scroll-proportion="-12.461538">
           <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.Tipos de referencia/Date/date.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2320442">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
           <folding />
         </state>
       </provider>
