@@ -1,0 +1,27 @@
+<script>
+    var persona = new Object();
+
+    persona.name = "nicolas";
+
+    persona.age = 29;
+
+    persona.job= "ing de sistemas";
+
+    persona.sayName = function  ()
+    {
+        console.log(this.name);
+    }
+    
+    persona.sayName();
+    
+    //Patron de fabrica
+    
+    function createPersona (nombre,edad,trabajo)
+    {
+        var o = new Object();
+        o.nombre = nombre;
+        o.edad = edad;
+        o.trabajo= trabajo;
+    }
+
+</script>

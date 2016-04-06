@@ -1,0 +1,50 @@
+<p>haz click</p>
+
+<button onclick="mifuncion()">click</button>
+
+<div id="misfrutas"></div>
+<div id="misfrutas2"></div>
+<script>
+
+    var frutas = new Array();
+    frutas = ["manzana","pera","naranja","banana"];
+
+    var array2 = [2,4,6,8];
+    var raices = array2.map(Math.sqrt);
+    console.log(raices);
+    
+    
+    var array3 =[2,3,4,5];
+    var por2 = array3.map(function(elemento){
+        return elemento *=2; 
+    })
+    console.log(por2);
+
+    var array4=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+
+    var divisibles3 = array4.filter(function(elemento){
+        return elemento %  3 ===0;
+    });
+    console.log(divisibles3);
+
+    var array5 = [4,8,15,16,23,42];
+
+    var cortar = array5.slice(2);
+    console.log(cortar);
+    console.log(array5.slice(0,1));
+
+
+
+
+
+    function mifuncion()
+    {
+        var fru = document.getElementById("misfrutas");
+        var fru2 = document.getElementById("misfrutas2");
+        fru2.innerHTML = frutas.push("zandia");
+        fru.innerHTML = frutas.join(", ");
+//        fru2.innerHTML = frutas.reverse();
+//        fru2.innerHTML = frutas.pop(); // devuelve el ultimo elemento
+//        fru2.innerHTML = frutas.sort(); //ordena
+    }
+</script>
