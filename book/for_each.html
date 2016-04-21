@@ -1,0 +1,22 @@
+<script>
+    var miarray = [1,3,3,4];
+    
+    miarray.forEach(function(elemento,index){
+       console.log("El valor de la posicion " + index + " es: " + elemento);
+    });
+
+    var libro ={
+        titulo: "Aprendiendo javascript",
+        autor:"calors azaustre",
+        numPaginas:64,
+        editorial:"carlosazautre.es",
+        precio:"2.95"
+    }
+
+    var propiedades = Object.getOwnPropertyNames(libro);
+    console.log(propiedades);
+    propiedades.forEach(function (name){
+        var valor = Object.getOwnPropertyDescriptor(libro,name).value;
+        console.log("la propieda "+ name + " contiene "+valor);
+    })
+</script>
