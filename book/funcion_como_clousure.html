@@ -1,0 +1,49 @@
+<script>
+    function inventario (nombred){
+        var _nombre = nombred;
+        var _articulos = {};
+
+        function add (nombre,cantidad){
+            _articulos[nombre] = cantidad;
+        }
+
+        function borrar (nombre){
+            delete _articulos[nombre];
+        }
+
+        function cantidad (nombre){
+            return _articulos[nombre]
+        }
+
+        function nombre(){
+            return _nombre;
+        }
+
+        function articulos ()
+        {
+            return _articulos;
+        }
+
+        return{
+            add: add,
+            borrar : borrar,
+            cantidad: cantidad,
+            nombre : nombre,
+            articulos: articulos
+        }
+
+    }
+
+    var libros = inventario("libros");
+    console.log(libros.add("angular",3));
+    console.log(libros.add("js",4));
+    console.log(libros.add("css",40));
+    console.log(libros.cantidad("css"));
+    console.log(libros.cantidad("js"));
+    console.log(libros.borrar("js"));
+    console.log(libros.cantidad("js"));
+    console.log(libros.nombre());
+    console.log(libros.articulos());
+
+
+</script>

@@ -1,0 +1,47 @@
+<script>
+    //Ahora como clase manera no apropiada ya que gasta mucha memoria
+    function Inventario (nombre)
+    {
+        this.nombre = nombre;
+        this.articulos = [];
+
+        this.add = function (nombre,cantidad)
+        {
+            this.articulos[nombre] = cantidad;
+        }
+
+        this.borrar = function (nombre) {
+            delete this.articulos[nombre];
+        }
+
+        this.cantidad = function (nombre)
+        {
+            return this.articulos[nombre];
+        }
+
+        this.getNombre = function(){
+            return this.nombre;
+        }
+
+        this.getArticulos  = function ()
+        {
+            return this.articulos;
+        }
+    }
+
+    var libros = new Inventario("librinis");
+
+    console.log(libros);
+    console.log(libros.add("js",3));
+    console.log(libros.add("html",3));
+    console.log(libros.add("cc",3));
+    console.log(libros.cantidad("cc"));
+    console.log(libros.borrar("cc"));
+    console.log(libros.cantidad("js"));
+    console.log(libros.getNombre());
+    console.log(libros.getArticulos());
+    var librutis = libros.getArticulos();
+    console.log(librutis.js);
+
+
+</script>

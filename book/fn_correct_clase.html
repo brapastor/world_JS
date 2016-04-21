@@ -1,0 +1,48 @@
+<script>
+    //prototype permit que los objetos de la misma clase compartan métodos
+    // y no sean replicados en memoria de maneraa ineficiente
+
+    function Inventario2(nombre) {
+        this.nombre = nombre || "coquito";
+        this.articulos = [];
+    }
+
+    Inventario2.prototype = {
+        add: function (nombre, cantidad) {
+            this.articulos[nombre] = cantidad;
+        },
+
+        borrar: function (nombre) {
+            delete this.articulos[nombre];
+        },
+
+        cantidad: function (nombre) {
+            return this.articulos[nombre];
+        },
+
+        getNombre: function () {
+            return this.nombre;
+        },
+
+        getArticulos: function ()
+        {
+            return this.articulos;
+        }
+
+    };
+
+    var libros = new Inventario2("matematica");
+    console.log(libros.getNombre());
+    console.log(libros.add("js",9));
+    console.log(libros.add("cc",92));
+    console.log(libros.getArticulos());
+
+    var twd = new Inventario2("TWD");
+    console.log(twd.getNombre());
+    console.log(twd.add("the walking deads",3));
+    console.log(twd.getArticulos());
+
+
+
+
+</script>

@@ -1,0 +1,72 @@
+<script>
+    //CLASES CON ECMAScript 6
+
+    class Inventario {
+        constructor (nombre){
+            this.nombre = nombre;
+            this.articulos = [];
+        }
+
+        add (nombre,cantidad){
+            this.articulos[nombre]= cantidad;
+        }
+
+        borrar (nombre){
+            delete this.articulos[nombre];
+        }
+
+        cantidad (nombre){
+            return this.articulos[nombre];
+        }
+
+        getNombre (){
+            return this.nombre;
+        }
+
+        getArticulos (){
+            return this.articulos;
+        }
+    }
+
+    class Vehiculo{
+        constructor (tipo,nombre,ruedas){
+            this.tipo = tipo;
+            this.nombre = nombre;
+            this.ruedas = ruedas;
+        }
+
+        getRuedas (){
+            return this.ruedas;
+        }
+
+        arranca(){
+            console.log('arranca el '+ this.nombre);
+        }
+
+        aparcar(){
+            console.log('aparcar el ' +this.nombre);
+        }
+    }
+
+    class coche extends Vehiculo{
+        constructor (nombre){
+            super('coche',nombre,4); //llamas al constructor de la otra clase padre al cual heredaste
+        }
+    }
+
+    var fordFocus = new coche("Ford Focus");
+    console.log(fordFocus.getRuedas());
+    fordFocus.arranca();
+
+    var libros = new Inventario("librasos");
+
+    console.log(libros.getNombre());
+    libros.add("js",4);
+    libros.add("css",2);
+    console.log(libros.getNombre());
+    console.log(libros.getArticulos());
+    libros.borrar("css");
+    console.log(libros.getArticulos());
+
+
+</script>

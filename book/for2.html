@@ -1,0 +1,22 @@
+<script>
+    var objeto =  {
+        unarray: new Array(10)
+    };
+    var unarray = objeto.unarray;
+
+    console.time('test');
+    for(var i= 0; i<objeto.unarray.length ; i++){
+            var aa =objeto.unarray[i] = "hola";
+            console.log(aa);
+        }
+    console.timeEnd('test');
+
+
+    console.time('test2');
+    for(var i= 0,tama=unarray.length; i<tama ; i++){
+        var aa =objeto.unarray[i] = "hola";
+        console.log(aa);
+    }
+    console.timeEnd('test2');
+
+</script>

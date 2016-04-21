@@ -1,0 +1,83 @@
+<script>
+//    ambito de varibles donde fueron creadas
+    var valor  = "global";
+    function funcionlocal ()
+    {
+        var valor =  "local";
+        return valor;
+    }
+    console.log(valor);
+    console.log(funcionlocal());
+    console.log(valor);
+
+//    funcion como objeto
+
+    var saludar = function (nombre) {
+        return "hola " + nombre;
+    }
+
+   console.log(saludar("carlos"));
+
+    //FUNCIONES ANIDADAS
+
+    var a = "OLA ";
+
+    function global ()
+    {
+        var b ="K ";
+        function local ()
+        {
+            var c = "ASE";
+            return a + b + c;
+        }
+        return local;
+    }
+
+    var closure = global();
+    console.log(closure());
+    
+//    console.log(global());
+//    var olaque = global()();
+//    olaque = olaque.toString();
+//    console.log(olaque.split(" "));
+
+
+//     CLOSURE SE ACCEDEN A TRAVES DE LA FUNCION
+
+    var miContador = (function(){
+        var _contador = 0;
+
+        function incrementar(){
+            return _contador++;
+        }
+
+        function decrementar ()
+        {
+            return _contador--;
+        }
+
+        function valor(){
+            return _contador;
+        }
+
+        return {
+            incrementar : incrementar,
+            decrementar: decrementar,
+            valor : valor
+        }
+
+    })();
+
+    console.log(miContador.valor()); //0
+    console.log(miContador.incrementar());
+    console.log(miContador.incrementar());
+    console.log(miContador.valor()); //2
+    console.log(miContador.decrementar());//1
+    miContador.valor(); //1
+
+
+    
+</script>
+
+
+
