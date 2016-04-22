@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+<div id="respuestaa">
+
+</div>
+
+<script>
+    //creamos el objeto XMLHttpRequest
+    var xhr = new XMLHttpRequest();
+
+    //definimos la funcion que anejará la respuesta
+    function reqHandler ()
+    {
+        if (this.readyState === 4 && this.status ===200){
+            /* Comprobamos que el estado es 4 (operación completada)
+             * los estados que podemos comprobar son:
+             * 0 = UNSET (No se ha llamado al método open())
+             * 1 = OPENED (Se ha llamado al método open())
+             * 2 = HEADERS_RECEIVED (Se ha llamado al método send())
+             * 3 = LOADING (Se está recibiendo la respuesta)
+             * 4 = DONE (se ha completado la operación)
+             * y el código 200 es el correspondiente al OK de HTTP de
+             * que todo ha salido correcto.
+             */
+//            console.log(this.responseText);
+            var respuesta = JSON.parse(this.responseText);
+            var respuestaHTML = document.querySelector('#respuestaa');
+            var tpl = '';
+
+            respuesta.forEach(function (elem)
+            {
+                tpl +='<a href="' + elem.url + '">'
+                    + '<img src="'+ elem.thumbnailUrl +'"/>',
+                    + '</a>',
+                    + '</br>',
+                    + '<span>' + elem.title +'</span>';
+            });
+            respuestaHTML.innerHTML = tpl;
+        }
+        else{
+            console.log("Algo a salido mal");
+        }
+    }
+    //asociamos la funcion manejadora
+    xhr.onload= reqHandler;
+    //abrimos la conexion hacia la url, indicando el metodo http, en este
+    //caso sera GET
+    xhr.open('GET','http://jsonplaceholder.typicode.com/photos',true);
+    //Enviamos la peticion
+    xhr.send();
+
+
+
+
+</script>
+</body>
+</html>

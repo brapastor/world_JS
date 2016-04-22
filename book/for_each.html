@@ -18,5 +18,10 @@
     propiedades.forEach(function (name){
         var valor = Object.getOwnPropertyDescriptor(libro,name).value;
         console.log("la propieda "+ name + " contiene "+valor);
-    })
+    });
+
+    for (var prop in libro){
+        console.log("la propiedad " +prop+" contiene: "+ libro[prop]);
+    }
+
 </script>

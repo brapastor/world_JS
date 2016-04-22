@@ -1,0 +1,69 @@
+<script>
+    var pubsub= (function ()
+    {
+        var suscriptores = {};
+
+        function EventObject (){};
+
+        function subscribe (event,callback)
+        {
+            //si no existe el evento, creamos el objeto y el array de callbacks
+            // y lo añadimos
+
+            if(!suscriptores[event]){
+
+                var suscriptoresArray = [callback];
+                suscriptores[event] = suscriptoresArray;
+
+                //si existe, añadimos al array de callbacks la funcion pasada por parametros
+
+            }else
+            {
+                suscriptores[event].push(callback);
+            }
+        }
+
+        function publish (event,data)
+        {
+            var eventObject = new EventObject();
+
+            eventObject.type = event;
+
+            if (data){
+                eventObject.data = data;
+            }
+
+            //si el evento existe, recorremos su array de callbacks y los ejecutamos en orden
+            if(suscriptores[event]){
+                suscriptores[event].forEach(function  (callback)
+                {
+                    callback(eventObject);
+                });
+            }
+        }
+
+        return{
+            //los metodos publicos que devolvemos sera 'pub' y 'sub'
+            pub: publish,
+            sub: subscribe
+        };
+    }());
+
+    pubsub.sub('mievento', function(e){
+       console.log("mi evento ha sido lanzado");
+    });
+
+    pubsub.pub('mievento');
+
+//    escuchamos el evento con datos
+    pubsub.sub('dddd',function  (e)
+    {
+        console.log("mi evento ha sido lanzado, y contiene: ", e.data.misDastos);
+    });
+
+    pubsub.pub('dddd',{
+        misDastos: 'estos son mis datos'
+    });
+
+
+</script>

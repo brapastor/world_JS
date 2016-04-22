@@ -1,0 +1,35 @@
+<script>
+    var usuario = {
+        "id": "012345678",
+        "username": "carlosazaustre",
+        "password": "fkldfn4r09330adafnanf9843fbcdkjdkks",
+        "data": {
+            "name": "Carlos Azaustre",
+            "email": "carlosazaustre@gmail.com",
+            "city": "Madrid",
+            "country": "ES"
+        },
+        "preferences": {
+            "contact": {
+                "email": true,
+                "notify": true
+            },
+            "interests": [
+                "javascript",
+                "nodejs",
+                "angularjs"
+            ]
+        }
+    };
+    console.log(usuario);
+    console.log(usuario.data.city);
+    console.log(usuario.preferences.interests);
+
+    var serialJson =JSON.stringify(usuario); //convierte a objeto en string
+    console.log(serialJson);
+
+    var serialReconstruido = JSON.parse(serialJson); // convierte tu string en un objeto
+    console.log(serialReconstruido);
+    console.log(serialReconstruido.data.city);
+
+</script>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+<div id="respuesta">
+asa
+</div>
+
+<script>
+    //asociamos a un elemento de la web el evento
+   var target = document.querySelector("#respuesta");
+    target.addEventListener('click', onClickHandler,false);
+
+    //funcion que manejara el evento
+    function onClickHandler (e)
+    {
+        e.preventDefault();
+        console.log(e);
+    }
+
+</script>
+</body>
+</html>

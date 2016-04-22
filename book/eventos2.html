@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Hola mundo</h1>
+        <h2>SubHeader</h2>
+    </header>
+    <script>
+        var header = document.querySelector("header");
+        
+        header.addEventListener('click', function(e){
+            console.log("has clickeado en "+ e.target.nodeName);
+            e.stopPropagation();
+        })
+        document.addEventListener('click',function ()
+        {
+            console.log("has clikeado en el documento");
+        })
+    </script>
+</body>
+</html>
