@@ -1,0 +1,54 @@
+<script>
+
+    function loadCss(url){
+        var promise = new Promise(
+                function resolve (resolve,reject)
+                {
+                    var elem = window.document.createElement('link');
+                    elem.rel = "stylesheet";
+                    elem.href = url;
+                    window.document.head.appendChild(elem);
+                    resolve();
+                }
+        );
+        return promise;
+    }
+
+    function division (num1, num2)
+    {
+        var promise = new Promise(
+                function resolver (resolve, reject)
+                {
+                    if(num2 === 0){
+                        reject(new Error("Dividir entre cero es infinito"))
+                    }
+                    else {
+                        resolve (num1 / num2);
+                    }
+                }
+        );
+        return promise;
+    }
+
+    //asumanos que loadCss devuelce una promesa
+    loadCss('style.css')
+            .then(function ()
+            {
+                console.log("estilos guardados");
+            })
+            .catch(function (err)
+            {
+                console.log("ocurrio un error " + err);
+            });
+
+    division(4,5)
+            .then(function ()
+            {
+                console.log("todo correcto");
+            })
+            .catch(function(err){
+               console.log("salio algo mal" + err); 
+            });
+
+
+</script>
