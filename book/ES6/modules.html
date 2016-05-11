@@ -1,0 +1,29 @@
+<script>
+    class Coche {
+        constructor (nombre, tipo)
+        {
+            this.nombre = nombre;
+            this.tipo = tipo;
+        }   
+        
+        arrancar ()
+        {
+            console.log(`Arrancando el ${this.nombre}`);
+        }   
+    }
+
+    export default Coche
+
+
+    import Coche from './coche'
+    let ford = new Coche('Ford', '5 puertas')
+    ford.arrancar() // Arrancando el Ford
+
+    //Exportar varias funciones
+    function caminar () { ... }
+    function correr () { ... }
+    export caminar
+    export correr
+
+    import {caminar, correr} from './modulo'
+</script>
