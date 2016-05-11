@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba24fee1-c12a-4129-ae04-1f58bc357159" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algoritmos/al_cuadrado.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algoritmos/matricula.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book/ES6/modules.html" afterPath="$PROJECT_DIR$/book/ES6/modules.html" />
     </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,41 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="promesas_0.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book/promesas_0.html">
+      <file leaf-file-name="al_cuadrado.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algoritmos/al_cuadrado.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="95">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="promesas_1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book/promesas_1.html">
+      <file leaf-file-name="matricula.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algoritmos/matricula.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="arrow.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book/ES6/arrow.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modules.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/book/ES6/modules.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="114">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -72,8 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/primeros pasos/declaraciones.html" />
-        <option value="$PROJECT_DIR$/primeros pasos/variables.html" />
         <option value="$PROJECT_DIR$/primeros pasos/use_strict.html" />
         <option value="$PROJECT_DIR$/Tipo de datos/typeof.html" />
         <option value="$PROJECT_DIR$/Tipo de datos/undefined.html" />
@@ -123,6 +102,8 @@
         <option value="$PROJECT_DIR$/book/promesas_1.html" />
         <option value="$PROJECT_DIR$/book/ES6/arrow.html" />
         <option value="$PROJECT_DIR$/book/ES6/modules.html" />
+        <option value="$PROJECT_DIR$/algoritmos/ej1.html" />
+        <option value="$PROJECT_DIR$/algoritmos/matricula.html" />
       </list>
     </option>
   </component>
@@ -191,39 +172,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="world_JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ES6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="world_JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7.Tipos de referencia" />
+              <option name="myItemId" value="algoritmos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -257,13 +206,7 @@
       <recent name="$PROJECT_DIR$/7.Tipos de referencia/Date" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.arrow.html">
-    <configuration default="false" name="ajax2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/book/ajax2.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="pubsub.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/book/pubsub.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.matricula.html">
     <configuration default="false" name="promesas_0.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/book/promesas_0.html">
       <method />
     </configuration>
@@ -271,6 +214,12 @@
       <method />
     </configuration>
     <configuration default="false" name="arrow.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/book/ES6/arrow.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="al_cuadrado.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/algoritmos/al_cuadrado.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="matricula.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/algoritmos/matricula.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -327,19 +276,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.ajax2.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.pubsub.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.promesas_0.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.promesas_1.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.arrow.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.promesas_0.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.promesas_1.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.arrow.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.al_cuadrado.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.matricula.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.arrow.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.promesas_1.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.promesas_0.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.ajax2.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.pubsub.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.matricula.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.al_cuadrado.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.arrow.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.promesas_1.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.promesas_0.html" />
       </list>
     </recent_temporary>
   </component>
@@ -363,12 +312,12 @@
       <workItem from="1462341741651" duration="8000" />
       <workItem from="1462374125569" duration="94000" />
       <workItem from="1462852482414" duration="1668000" />
-      <workItem from="1462938547786" duration="1166000" />
+      <workItem from="1462938547786" duration="4745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3084000" />
+    <option name="totallyTimeSpent" value="6663000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -428,20 +377,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/3.Tipo de datos/boolean.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.Tipo de datos/number.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="56" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3.Tipo de datos/null.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -596,13 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7.Tipos de referencia/function.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="129" column="39" selection-start-line="129" selection-start-column="39" selection-end-line="129" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/8.POO/object.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -743,18 +671,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book/promesas_0.html">
+    <entry file="file://$PROJECT_DIR$/book/ES6/modules.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book/promesas_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        <state relative-caret-position="298">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -767,10 +687,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book/ES6/modules.html">
+    <entry file="file://$PROJECT_DIR$/book/promesas_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="463">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/promesas_0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algoritmos/al_cuadrado.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.Tipos de referencia/function.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="121" column="13" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algoritmos/matricula.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
           <folding />
         </state>
       </provider>
