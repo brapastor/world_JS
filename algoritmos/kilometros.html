@@ -1,0 +1,18 @@
+<script>
+    var min = 2;
+    var seg = 60;
+    var cen =1000;
+    var dis = 100;
+
+    var minseg= min * 60;
+    var censeg = 1000/100;
+    
+    segTotal = minseg + seg + censeg;
+    
+    var segAhora= segTotal / 3600;
+
+    var km = dis/ 1000;
+
+    var velocidad = `${km} / ${segAhora}`;
+    console.log(velocidad);
+</script>

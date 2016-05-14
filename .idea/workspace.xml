@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba24fee1-c12a-4129-ae04-1f58bc357159" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algoritmos/cua_cubo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algoritmos/perimetro.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algoritmos/peso_dino.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algoritmos/area_triangulo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algoritmos/dias_seg.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algoritmos/gasolina.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algoritmos/kilometros.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled.iws" />
@@ -26,51 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="al_cuadrado.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algoritmos/al_cuadrado.html">
+      <file leaf-file-name="area_triangulo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algoritmos/area_triangulo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="matricula.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algoritmos/matricula.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cua_cubo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algoritmos/cua_cubo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="perimetro.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algoritmos/perimetro.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="peso_dino.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algoritmos/peso_dino.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="228">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -84,10 +45,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Tipo de datos/boolean.html" />
-        <option value="$PROJECT_DIR$/Tipo de datos/number.html" />
-        <option value="$PROJECT_DIR$/Tipo de datos/String.html" />
-        <option value="$PROJECT_DIR$/Tipo de datos/objetos.html" />
         <option value="$PROJECT_DIR$/4.operadores/unitarios.html" />
         <option value="$PROJECT_DIR$/4.operadores/unarios.html" />
         <option value="$PROJECT_DIR$/4.operadores/aditivos_multiplicativos.html" />
@@ -135,6 +92,10 @@
         <option value="$PROJECT_DIR$/algoritmos/perimetro.html" />
         <option value="$PROJECT_DIR$/algoritmos/area_circunferencia.html" />
         <option value="$PROJECT_DIR$/algoritmos/peso_dino.html" />
+        <option value="$PROJECT_DIR$/algoritmos/gasolina.html" />
+        <option value="$PROJECT_DIR$/algoritmos/kilometros.html" />
+        <option value="$PROJECT_DIR$/algoritmos/dias_seg.html" />
+        <option value="$PROJECT_DIR$/algoritmos/area_triangulo.html" />
       </list>
     </option>
   </component>
@@ -144,10 +105,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
     <option name="y" value="23" />
-    <option name="width" value="1366" />
-    <option name="height" value="741" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -175,7 +135,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -210,6 +169,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,20 +198,20 @@
       <recent name="$PROJECT_DIR$/7.Tipos de referencia/Date" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.peso_dino.html">
-    <configuration default="false" name="al_cuadrado.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/algoritmos/al_cuadrado.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="matricula.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/algoritmos/matricula.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="cua_cubo.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/algoritmos/cua_cubo.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="perimetro.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/algoritmos/perimetro.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.area_triangulo.html">
     <configuration default="false" name="peso_dino.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/algoritmos/peso_dino.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="gasolina.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/algoritmos/gasolina.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="kilometros.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/algoritmos/kilometros.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="dias_seg.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/algoritmos/dias_seg.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="area_triangulo.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/algoritmos/area_triangulo.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -308,19 +268,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.al_cuadrado.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.matricula.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.cua_cubo.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.perimetro.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.peso_dino.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.peso_dino.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.gasolina.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.kilometros.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.dias_seg.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.area_triangulo.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.peso_dino.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.perimetro.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.cua_cubo.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.matricula.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.al_cuadrado.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.area_triangulo.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.dias_seg.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.kilometros.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.gasolina.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.peso_dino.html" />
       </list>
     </recent_temporary>
   </component>
@@ -345,24 +305,26 @@
       <workItem from="1462374125569" duration="94000" />
       <workItem from="1462852482414" duration="1668000" />
       <workItem from="1462938547786" duration="4896000" />
-      <workItem from="1463115212744" duration="1601000" />
+      <workItem from="1463115212744" duration="2423000" />
+      <workItem from="1463149114539" duration="373000" />
+      <workItem from="1463194437072" duration="1810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8415000" />
+    <option name="totallyTimeSpent" value="11420000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="23" width="1366" height="741" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22750929" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22692037" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2826421" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28097063" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39820743" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -410,34 +372,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/4.operadores/aditivos_multiplicativos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.operadores/logicos_relacionales.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="26" column="64" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5.Estructuras de control/estrct_condicional.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5.Estructuras de control/estruct_repetitivas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/5.Estructuras de control/break_continue.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -718,26 +652,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algoritmos/al_cuadrado.html">
+    <entry file="file://$PROJECT_DIR$/algoritmos/dias_seg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="38">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algoritmos/matricula.html">
+    <entry file="file://$PROJECT_DIR$/algoritmos/kilometros.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="266">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algoritmos/cua_cubo.html">
+    <entry file="file://$PROJECT_DIR$/algoritmos/gasolina.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        <state relative-caret-position="95">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algoritmos/peso_dino.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -750,10 +692,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algoritmos/peso_dino.html">
+    <entry file="file://$PROJECT_DIR$/algoritmos/cua_cubo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="114">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algoritmos/matricula.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algoritmos/al_cuadrado.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algoritmos/area_triangulo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding />
         </state>
       </provider>
